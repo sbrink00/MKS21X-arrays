@@ -79,7 +79,7 @@ public class ArrayDemo{
       for (int idx = 0; idx < vals.length; idx ++){ //array except negative
         Final[idx] = vals[idx];                     //values are replaced by 3
       }                                             //and positive ones are
-      for (int idx = 0; idx < vals.length; idx ++){//replaed by 1
+      for (int idx = 0; idx < vals.length; idx ++){//replaed by 1.
         for (int idx2 = 0; idx2 < vals[idx].length; idx2 ++){
           if (vals[idx][idx2] < 0){
             Final[idx][idx2] = 3;
